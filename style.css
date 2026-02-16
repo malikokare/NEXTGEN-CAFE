@@ -84,3 +84,59 @@ footer{
     left: 0;
     width: 100%;
 }
+
+/*add customer page*/
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.customerform{
+    display: flex;
+    flex-direction: column;
+}
+.customerform label{
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 16px;
+}
+.customerform input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.customerform button{
+    padding: 10px;
+    background: #72a293;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.customerform button:hover{
+    background: #dffffd;
+    color: #333;
+}
+.errormsg{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.successmsg{
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+main{
+    padding: 100px;
+    text-align: center;
+}
+section{
+    margin-bottom: 30px;
+}

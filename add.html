@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Add Customer</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -18,19 +18,38 @@
 </header>
 
 <main>
-  <section>
-    <form id="customerForm">
-      <input type="text" id="name" placeholder="Customer Name">
-      <input type="number" id="hours" placeholder="Hours Played">
-      <select id="service">
-        <option value="PlayStation">PlayStation</option>
-        <option value="Cyber">Cyber</option>
-      </select>
-      <button type="submit">Save Session</button>
-      <p id="errorMsg"></p>
+  <section class="session-section">
+    <h2>🎮 Customer Session Registration</h2>
+
+    <form id="customerForm" class="session-form">
+      
+      <div class="form-group">
+        <label for="name">Customer Name</label>
+        <input type="text" id="name" placeholder="Enter customer name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="hours">Hours Played</label>
+        <input type="number" id="hours" placeholder="Enter number of hours" min="1" required>
+      </div>
+
+      <div class="form-group">
+        <label for="service">Select Service</label>
+        <select id="service" required>
+          <option value="">-- Choose Service --</option>
+          <option value="PlayStation">🎮 PlayStation</option>
+          <option value="Cyber">💻 Cyber</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn">Save Session</button>
+
+      <p id="errorMsg" class="error"></p>
+
     </form>
   </section>
 </main>
+
 
 <footer>
   <p>&copy; 2026 NextGen Café</p>
