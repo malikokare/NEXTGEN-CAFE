@@ -154,7 +154,7 @@ input:focus, select:focus {
 main {
   flex: 1;
   padding: 20px;
-  background-color: #121212;
+  background-color: #a6179c;
 }
 
 .session-container h2 {
