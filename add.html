@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Customer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Add Customer Session</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="add.html">Add Customer</a>
+    <a href="sessions.html">Sessions</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <form id="customerForm">
+      <input type="text" id="name" placeholder="Customer Name">
+      <input type="number" id="hours" placeholder="Hours Played">
+      <select id="service">
+        <option value="PlayStation">PlayStation</option>
+        <option value="Cyber">Cyber</option>
+      </select>
+      <button type="submit">Save Session</button>
+      <p id="errorMsg"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 NextGen Café</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
