@@ -190,7 +190,7 @@ main {
 
 .session-list li:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.6);
+  box-shadow: 0 12px 24px rgba(9, 158, 34, 0.6);
 }
 
 .session-list li h3 {
