@@ -33,3 +33,11 @@ header .navbar a{
     text-decoration: none;
     margin-left: 30px;
 }
+header .navbar a:hover{
+    color: #dffffd;
+}
+header h1{
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
