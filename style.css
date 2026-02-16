@@ -41,3 +41,46 @@ header h1{
     font-size: 36px;
     margin-bottom: 20px;
 }
+header a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #72a293;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header a:hover{
+    background: #dffffd;
+    color: #333;
+}
+main{
+    padding: 100px;
+    text-align: center;
+}
+main h2{
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+main p{
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.totalcustomers{
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+}
+footer{
+    background: #72a293;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
