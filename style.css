@@ -86,57 +86,66 @@ footer{
 }
 
 /*add customer page*/
-form{
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+body 
+
+.session-section {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0, 255, 150, 0.3);
 }
-.customerform{
-    display: flex;
-    flex-direction: column;
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ff99;
 }
-.customerform label{
-    margin-bottom: 5px;
-    color: #333;
-    font-size: 16px;
+
+.form-group {
+  margin-bottom: 15px;
 }
-.customerform input{
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+
+label {
+  display: block;
+  margin-bottom: 5px;
 }
-.customerform button{
-    padding: 10px;
-    background: #72a293;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
-.customerform button:hover{
-    background: #dffffd;
-    color: #333;
+
+input:focus, select:focus {
+  border: 2px solid #00ff99;
 }
-.errormsg{
-    color: red;
-    font-size: 14px;
-    margin-bottom: 10px;
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ff99;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
 }
-.successmsg{
-    color: green;
-    font-size: 14px;
-    margin-bottom: 10px;
+
+.btn:hover {
+  background-color: #00cc77;
 }
-main{
-    padding: 100px;
-    text-align: center;
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
 }
-section{
-    margin-bottom: 30px;
+.success {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
 }
+
+/*session page*/
